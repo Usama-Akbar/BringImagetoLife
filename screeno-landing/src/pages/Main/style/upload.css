@@ -1,0 +1,31 @@
+.display {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+  .image1-gif {
+    display: none !important;
+  }
+  .display {
+    display: flex;
+    flex-direction: column;
+  }
+  .css-c7i9fh {
+    text-align: center !important;
+  }
+  .css-1bjiiga {
+    margin-bottom: 20px;
+  }
+  .css-prjb2f {
+    padding: 7px !important;
+  }
+  .upload-button {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+  .css-ojywlc {
+    font-size: 19px !important;
+  }
+}

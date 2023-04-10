@@ -1,0 +1,15 @@
+.song-options {
+  width: 35% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .song-options {
+    width: 100% !important;
+  }
+  .video-gif {
+    display: none !important;
+  }
+  .css-1ltezim {
+    font-size: 12px !important;
+  }
+}

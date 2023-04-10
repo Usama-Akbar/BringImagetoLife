@@ -1,0 +1,16 @@
+.song-options {
+  width: 35% !important;
+}
+.css-7o29zk {
+  padding: 30px 0px !important;
+}
+@media only screen and (max-width: 600px) {
+  .video-cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .css-7o29zk {
+    padding: 30px 0px !important;
+  }
+}

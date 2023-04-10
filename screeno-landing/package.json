@@ -1,0 +1,46 @@
+{
+  "name": "screeno-landing",
+  "homepage": "https://github.com/AlexandrLo/screeno-landing",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack",
+    "lint": "eslint --ext .jsx,.js src/"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.8.6",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@fontsource/mulish": "^4.5.10",
+    "@paypal/react-paypal-js": "^7.8.2",
+    "antd": "^5.0.3",
+    "concurrently": "^7.6.0",
+    "framer-motion": "^6.3.4",
+    "phosphor-react": "^1.4.1",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-image-annotation": "^0.9.10",
+    "react-media-player": "^0.7.9",
+    "react-player": "^2.11.0",
+    "react-router-dom": "^6.2.2",
+    "use-debounce": "^8.0.1",
+    "video-player-for-react": "^1.0.7",
+    "video-react": "^0.16.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@svgr/webpack": "^6.2.1",
+    "babel-loader": "^8.2.5",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.16.0",
+    "eslint-plugin-react": "^7.30.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
